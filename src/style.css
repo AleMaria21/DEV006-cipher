@@ -1,0 +1,226 @@
+
+#hoguera{ 
+ background-image:url(img/fondodialog.png);
+ background-size: cover;
+ width: 70%;
+ height: auto;
+ border-radius: 5%;
+}
+
+#imghoguera{
+  width: 40%;
+  height: auto;
+  margin: auto;
+  display: block;
+  border-radius: 5%;
+  box-shadow: 5px 5px 0px #6b6a6a;
+}
+
+
+#bruno{
+  width: 40%;
+  font-size: 40%;
+  margin: auto;
+  display: block;
+  color: white;
+  font-family:cursive;
+  text-align: right;
+}
+ 
+#autor{
+  width: 40%;
+  font-size: 40%;
+  color: white;
+  font-family:Courier;
+  font-weight: bold;
+  text-align: right;
+  margin: auto;
+  display: block;
+}
+
+#conocimiento{
+  border: 2px solid #6884cf;
+  padding: 8px 30px;
+  font-size: 32;
+  position: relative;
+  margin: auto;
+  display: block;
+  font-style: inherit;
+  background-color: #6884cf;
+  color: white;
+  font-weight: 700;
+  font-family: Courier;
+  transition: color 0.8s
+}
+
+#conocimiento:hover{
+ color: white;
+ background-color: transparent;
+ border-radius: 5px;
+}
+
+body{
+  background-image: url(img/fondo1.png);
+  background-size: cover;
+}
+
+#tittle{
+ width: 60%;
+ margin: 0 auto;
+ display: block;
+}
+
+#pcifrar{
+  color: white;
+  font-size: 200%;
+  font-family: "Lucida Grande";
+  width: 25%;
+  margin: auto;
+  display: block;
+  text-align: left;
+}
+#barrasci{
+  width: 40%;
+  height: auto;
+  margin: auto;
+  display: block;
+}
+
+#pdescifrar{
+  color: white;
+  font-size: 200%;
+  font-family: "Lucida Grande";
+  width: 25%;
+  margin: auto;
+  display: block;
+  text-align: left;
+}
+
+#barrasdes{
+  width: 40%;
+  height: auto;
+  margin: auto;
+  display: block;
+}
+
+#botoncifrar{
+  border: 2px solid #6884cf;
+  border-radius: 5px ;
+  padding: 8px 30px;
+  font-size: 32;
+  font-style: inherit;
+  background-color: #6884cf;
+  color: white;
+  font-weight: 700;
+  font-family: Courier;
+  transition: color 0.8s;
+}
+
+#botoncifrar:hover{
+  color: white;
+  background-color: transparent;
+  border-radius: 5px;
+}
+
+#cifrar{
+  border: 2px solid #6884cf;
+  border-radius: 5px ;
+  font-size: 20px;
+  padding: 8px 30px;
+  background-color: transparent;
+  color:white;
+  width: 40%;
+  height: 130%;
+  font-family: Courier;
+}
+
+#numcifrar{
+  border: 2px solid #6884cf;
+  border-radius: 5px ;
+  padding: 8px 30px;
+  font-size: 20px;
+  background-color: transparent;
+  color: white;
+  size:400%;
+  font-family: Courier;
+}
+
+#cifrado{
+  border: 2px solid #6884cf;
+  border-radius: 5px ;
+  padding: 8px 30px;
+  font-size: 20px;
+  background-color: transparent;
+  color: white;
+  size:400%;
+  font-family: Courier;
+}
+
+#botondescifrar{
+  border: 2px solid #6884cf;
+  border-radius: 5px ;
+  padding: 8px 30px;
+  font-size: 32;
+  font-style: inherit;
+  background-color: #6884cf;
+  color: white;
+  font-weight: 700;
+  font-family: Courier;
+  transition: color 0.8s;
+}
+
+#botondescifrar:hover{
+  color: white;
+  background-color: transparent;
+  border-radius: 5px;
+ }
+
+ #descifrar{
+  border: 2px solid #6884cf;
+  border-radius: 5px ;
+  font-size: 20px;
+  padding: 8px 30px;
+  background-color: transparent;
+  color:white;
+  width: 40%;
+  height: 130%;
+  font-family: Courier;
+}
+
+#numdescifrar{
+  border: 2px solid #6884cf;
+  border-radius: 5px ;
+  padding: 8px 30px;
+  font-size: 20px;
+  background-color: transparent;
+  color: white;
+  size:400%;
+  font-family: Courier;
+}
+
+#descifrado{
+  border: 2px solid #6884cf;
+  border-radius: 5px ;
+  padding: 8px 30px;
+  font-size: 20px;
+  background-color: transparent;
+  color: white;
+  size:400%;
+  font-family: Courier;
+}
+
+
+
+
+   
+    
+    
+
+  
+
+  
+
+
+ 
+
+

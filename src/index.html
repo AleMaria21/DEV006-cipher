@@ -4,11 +4,49 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
+
+    <dialog id="hoguera" open>
+      <img id=imghoguera src="img/hereje.jpeg" alt="Imagen grafica de hombre incinerado en plaza publica"> 
+      <img src="img/saturno.png" alt="ilustracion saturno">
+      <form method="dialog">
+        <p>  </p>
+        <p id="bruno">  
+        “Hay un solo espacio general, una vasta inmensidad única a la que podemos llamar libremente vacío: en él están los orbes innumerables como éste en el que vivimos y crecemos, declaramos que este espacio es infinito, ya que ninguna razón, conveniencia, percepción sensorial ni naturaleza le asigna un límite”
+        </p> 
+       <p id="autor">Giordano Bruno 1548-1600</p>
+       <h3>aqui va el fabuloso texto escrito por mi amiga Julieth :3</h3>
+       <button id="conocimiento" value="default">¡A por el conocimiento!</button>
+      </form>
+    </dialog>
   </head>
-  <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
-    <script src="index.js" type="module"></script>
+
+ <body> 
+   <img id="tittle" alt="titulo" src="img/titulo.png"></img>
+   <main>
+     <p id=pcifrar>Cifra tu codigo.</p> 
+     <p id="barrasci">
+       <form id="cifrador">
+         <input type="text" id="cifrar" spellcheck="false">
+       </form>
+       <input type="number" id="numcifrar" min="0" max="9"></input>
+       <input type="submit" value="Cifrar" id="botoncifrar">  
+      </p>
+      <input type="text" id="cifrado"></input>
+   </main>
+   <p> </p>
+   <main>
+     <p id=pdescifrar>Descifra tu codigo.</p> 
+     <p id="barrasdes">
+       <form id="descifrador">
+       <input type="text" id="descifrar" spellcheck="false">
+       </form>
+       <input type="number" id="numdescifrar" min="0" max="25"></input>
+       <input type="submit" value="Descifrar" id="botondescifrar">
+      </p>
+      <textarea type="text" id="descifrado"></textarea>
+   </main>
+
+   <script src="index.js" type="module"></script>
   </body>
 </html>
+
