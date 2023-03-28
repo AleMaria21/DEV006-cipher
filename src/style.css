@@ -60,7 +60,7 @@
 }
 
 body{
-  background-image: url(img/fondo1.png);
+  background-color: black;
   background-size: cover;
 }
 
@@ -154,6 +154,7 @@ body{
   color: white;
   size:400%;
   font-family: Courier;
+  
 }
 
 #botondescifrar{

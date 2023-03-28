@@ -3,14 +3,15 @@ import cipher from './cipher.js';
 window.alert="hoguera"
 const confirmBtn = hoguera.querySelector('conocimiento');
 
-const alfabeto=["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
+let inputs = [cifrado, cifrar]
+inputs.forEach(input =>{
+    input.oninput=()=>{
+        input.value=input.value.toUpperCase()
+    }
+});
 
-let botoncifrar=document.getElementById("botoncifrar");
-let stringcifrado = document.getElementById("cifrado");
-let string=document.getElementById("cifrar"). value;
-let inputs= [cifrado, cifrar]
-
-inputs.forEach( input =>{
+let inputsdes = [descifrado, descifrar]
+inputsdes.forEach(input =>{
     input.oninput=()=>{
         input.value=input.value.toUpperCase()
     }
@@ -18,11 +19,21 @@ inputs.forEach( input =>{
 
 botoncifrar.addEventListener("click",   
  function() {
-    const llave = document.getElementById("numcifrar").value;
-    const offset = parseInt (llave);
-    stringcifrado.innerHTML = cipher.encode(offset, string);
-   
-}); 
-    
+    const offset = parseInt(document.getElementById("numcifrar").value);
+    const string = document.getElementById("cifrar").value;
+    resultado= cipher.encode(offset, string);
+    let resultado = document.getElementById("cifrado").value;
+    }
+); 
+
+botondescifrar.addEventListener("click",   
+ function() {
+     const offsetdes = parseInt(document.getElementById("numdescifrar").value);
+     const stringdes = document.getElementById("descifrar").value;
+     resultadodes = cipher.decode(offsetdes, stringdes);
+     let resultadodes = document.getElementById("descifrado").value;
+    }
+); 
+
 
 console.log(cipher);
