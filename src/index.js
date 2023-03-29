@@ -2,6 +2,11 @@ import cipher from './cipher.js';
 
 window.alert = "hoguera"
 
+const cifrado = document.getElementById("cifrado");
+const cifrar = document.getElementById("cifrar");
+const descifrar = document.getElementById("descifrar");
+const descifrado = document.getElementById("descifrado");
+
 const inputs = [cifrado, cifrar]
 inputs.forEach(input => { 
   input.oninput = () => {
@@ -16,21 +21,21 @@ inputsdes.forEach(input => {
   }
 });
 
+const botoncifrar = document.getElementById("botoncifrar");
 botoncifrar.addEventListener("click",
   function () {
     const offset = parseInt(document.getElementById("numcifrar").value);
     const string = document.getElementById("cifrar").value;
-    const resultado = document.getElementById("cifrado").value;
-    resultado = cipher.encode(offset, string);
+    document.getElementById("cifrado").textContent = cipher.decode(offset, string);
   }
 );
 
+const botondescifrar = document. getElementById("botondescifrar");
 botondescifrar.addEventListener("click",
   function () {
     const offsetdes = parseInt(document.getElementById("numdescifrar").value);
     const stringdes = document.getElementById("descifrar").value;
-    const resultadodes = document.getElementById("descifrado").value;
-    resultadodes = cipher.decode(offsetdes, stringdes);
+    document.getElementById("descifrado").textContent = cipher.decode(offsetdes, stringdes);
   }
 );
 
