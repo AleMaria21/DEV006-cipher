@@ -2,13 +2,13 @@
 #hoguera{ 
  background-image:url(img/fondodialog.png);
  background-size: cover;
- width: 70%;
- height: auto;
+ width: 75%;
+ height: 72%;
  border-radius: 5%;
 }
 
 #imghoguera{
-  width: 40%;
+  width: 30%;
   height: auto;
   margin: auto;
   display: block;
@@ -18,18 +18,19 @@
 
 
 #bruno{
-  width: 40%;
-  font-size: 40%;
+  width: 42%;
+  font-size: 10px;
   margin: auto;
   display: block;
   color: white;
   font-family:cursive;
   text-align: right;
+  margin-top: 6px;
 }
  
 #autor{
   width: 40%;
-  font-size: 40%;
+  font-size: 12px;
   color: white;
   font-family:Courier;
   font-weight: bold;
@@ -37,6 +38,19 @@
   margin: auto;
   display: block;
 }
+
+#cuidado{
+  font-family:Lucida Grande;
+  color: white;
+  font-size:15px;
+  width: 60%;
+  margin: auto;
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+
+}
+
 
 #conocimiento{
   border: 2px solid #6884cf;
@@ -60,8 +74,13 @@
 }
 
 body{
-  background-color: black;
+  background-image: url(img/fondo.png);
   background-size: cover;
+}
+
+#espacio{
+  margin-top: 40px;
+  margin: center;
 }
 
 #tittle{
@@ -71,19 +90,29 @@ body{
 }
 
 #pcifrar{
-  color: white;
-  font-size: 200%;
-  font-family: "Lucida Grande";
-  width: 25%;
-  margin: auto;
-  display: block;
-  text-align: left;
+ color: white;
+ font-size: 200%;
+ font-family: "Lucida Grande";
+ width: 25%;
+ margin: auto;
+ display: block;
+ text-align: center;
 }
+
 #barrasci{
-  width: 40%;
+  width: 25%;
   height: auto;
   margin: auto;
   display: block;
+  align-items: center;
+}
+
+#barrasci2{
+  width: 45%;
+  height: auto;
+  margin: auto;
+  display: block;
+  align-items: center;
 }
 
 #pdescifrar{
@@ -93,24 +122,32 @@ body{
   width: 25%;
   margin: auto;
   display: block;
-  text-align: left;
+  text-align: center;
+  margin-top: 20px;
 }
 
 #barrasdes{
-  width: 40%;
+  width: 25%;
+  height: auto;
+  margin: auto;
+  display: block;
+}
+
+#barrasdes2{
+  width: 45%;
   height: auto;
   margin: auto;
   display: block;
 }
 
 #botoncifrar{
-  border: 2px solid #6884cf;
+  border: 2px solid white;
   border-radius: 5px ;
   padding: 8px 30px;
   font-size: 32;
   font-style: inherit;
-  background-color: #6884cf;
-  color: white;
+  background-color: white;
+  color:#6884cf;
   font-weight: 700;
   font-family: Courier;
   transition: color 0.8s;
@@ -123,7 +160,7 @@ body{
 }
 
 #cifrar{
-  border: 2px solid #6884cf;
+  border: 2px solid white;
   border-radius: 5px ;
   font-size: 20px;
   padding: 8px 30px;
@@ -135,7 +172,7 @@ body{
 }
 
 #numcifrar{
-  border: 2px solid #6884cf;
+  border: 2px solid  white;
   border-radius: 5px ;
   padding: 8px 30px;
   font-size: 20px;
@@ -146,7 +183,7 @@ body{
 }
 
 #cifrado{
-  border: 2px solid #6884cf;
+  border: 2px solid  white;
   border-radius: 5px ;
   padding: 8px 30px;
   font-size: 20px;
@@ -154,17 +191,16 @@ body{
   color: white;
   size:400%;
   font-family: Courier;
-  
 }
 
 #botondescifrar{
-  border: 2px solid #6884cf;
+  border: 2px solid white;
   border-radius: 5px ;
   padding: 8px 30px;
   font-size: 32;
   font-style: inherit;
-  background-color: #6884cf;
-  color: white;
+  background-color: white;
+  color: #6884cf;
   font-weight: 700;
   font-family: Courier;
   transition: color 0.8s;
@@ -177,7 +213,7 @@ body{
  }
 
  #descifrar{
-  border: 2px solid #6884cf;
+  border: 2px solid white;
   border-radius: 5px ;
   font-size: 20px;
   padding: 8px 30px;
@@ -189,7 +225,7 @@ body{
 }
 
 #numdescifrar{
-  border: 2px solid #6884cf;
+  border: 2px solid white;
   border-radius: 5px ;
   padding: 8px 30px;
   font-size: 20px;
@@ -200,7 +236,7 @@ body{
 }
 
 #descifrado{
-  border: 2px solid #6884cf;
+  border: 2px solid white;
   border-radius: 5px ;
   padding: 8px 30px;
   font-size: 20px;
@@ -208,6 +244,44 @@ body{
   color: white;
   size:400%;
   font-family: Courier;
+}
+
+#resetci{
+  border: 2px solid white;
+  border-radius: 5px ;
+  padding: 8px 30px;
+  font-size: 32;
+  font-style: inherit;
+  background-color: white;
+  color: #6884cf;
+  font-weight: 700;
+  font-family: Courier;
+  transition: color 0.8s;
+}
+
+#resetci:hover{
+  color: white;
+  background-color: transparent;
+  border-radius: 5px;
+}
+
+#resetdes{
+  border: 2px solid white;
+  border-radius: 5px ;
+  padding: 8px 30px;
+  font-size: 32;
+  font-style: inherit;
+  background-color: white;
+  color: #6884cf;
+  font-weight: 700;
+  font-family: Courier;
+  transition: color 0.8s;
+}
+
+#resetdes:hover{
+  color: white;
+  background-color: transparent;
+  border-radius: 5px;
 }
 
 

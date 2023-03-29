@@ -9,12 +9,12 @@
       <img id=imghoguera src="img/hereje.jpeg" alt="Imagen grafica de hombre incinerado en plaza publica"> 
 
       <form method="dialog">
-        <p>  </p>
         <p id="bruno">  
         “Hay un solo espacio general, una vasta inmensidad única a la que podemos llamar libremente vacío: en él están los orbes innumerables como éste en el que vivimos y crecemos, declaramos que este espacio es infinito, ya que ninguna razón, conveniencia, percepción sensorial ni naturaleza le asigna un límite”
         </p> 
        <p id="autor">Giordano Bruno 1548-1600</p>
-       <h3>aqui va el fabuloso texto escrito por mi amiga Julieth :3</h3>
+       <p id="cuidado">Es importante que tengas cuidado al manejar y difundir documentos e información científica que nos permita comprender el universo, ya que algunos líderes  de la religión Católica pueden estar en desacuerdo e interpretarlo como herejía y podrías enfrentar graves consecuencias si se descubren. Te sugiero que tomes medidas para proteger estos documentos y mantener su confidencialidad para evitar cualquier situación incómoda o peligrosa. </p>
+       <p> </p>
        <button id="conocimiento" value="default">¡A por el conocimiento!</button>
       </form>
     </dialog>
@@ -22,29 +22,37 @@
 
  <body> 
    <img id="tittle" alt="titulo" src="img/titulo.png"></img>
-   <main>
-     <p id=pcifrar>Cifra tu codigo.</p> 
-     <p id="barrasci">
-       <form id="cifrador">
-         <input type="text" id="cifrar" spellcheck="false">
-       </form>
-       <input type="number" id="numcifrar" min="1" max="26"></input>
-       <input type="button" value="Cifrar" id="botoncifrar">  
-      </p>
-      <input type="text" id="cifrado" placeholder="Cuid"></input>
-   </main>
-   <p> </p>
-   <main>
-     <p id=pdescifrar>Descifra tu codigo.</p> 
-     <p id="barrasdes">
-       <form id="descifrador">
-       <input type="text" id="descifrar" spellcheck="false">
-       </form>
-       <input type="number" id="numdescifrar" min="1" max="26"></input>
-       <input type="button" value="Descifrar" id="botondescifrar">
-      </p>
-      <input type="text" id="descifrado"></input>
-   </main>
+   <main id="espacio">
+     <div>
+       <p id=pcifrar>Cifra tu mensaje.</p> 
+       <div id="barrasci">
+         <form id="cifrador">
+           <input type="text" id="cifrar" spellcheck="false">
+         </form>
+         <input type="number" id="numcifrar" min="1" max="26" placeholder="No."></input>
+         <input type="submit" value="Cifrar" id="botoncifrar">  
+        </div>
+       <div id="barrasci2">
+         <input type="text" id="cifrado" placeholder="Cuida la información como si fuera tu vida"></input>
+         <input type="reset" id="resetci" value="Restablecer">
+       </div>
+      </div>
+    
+     <div>
+       <p id=pdescifrar>Descifra tu mensaje.</p> 
+       <div id="barrasdes">
+         <form id="descifrador">
+         <input type="text" id="descifrar" spellcheck="false">
+         </form>
+         <input type="number" id="numdescifrar" min="1" max="26" placeholder="No."></input>
+         <input type="button" id="botondescifrar" value="descifrar">
+        </div>
+       <div id="barrasdes2">
+         <input type="text" id="descifrado"></input>
+         <input type="button" id="resetdes" value="Restablecer">
+       </div>
+     </div>  
+    </main>
 
    <script src="index.js" type="module"></script>
   </body>
