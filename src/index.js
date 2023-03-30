@@ -26,7 +26,7 @@ botoncifrar.addEventListener("click",
   function () {
     const offset = parseInt(document.getElementById("numcifrar").value);
     const string = document.getElementById("cifrar").value;
-    document.getElementById("cifrado").textContent = cipher.decode(offset, string);
+    document.getElementById("cifrado").textContent = cipher.encode(offset, string);
   }
 );
 

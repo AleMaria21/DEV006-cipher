@@ -4,10 +4,8 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
-
     <dialog id="hoguera" open>
-      <img id=imghoguera src="img/hereje.jpeg" alt="Imagen grafica de hombre incinerado en plaza publica"> 
-
+      <img id="imghoguera" src="img/hereje.jpeg" alt="Imagen grafica de hombre incinerado en plaza publica"> 
       <form method="dialog">
         <p id="bruno">  
         “Hay un solo espacio general, una vasta inmensidad única a la que podemos llamar libremente vacío: en él están los orbes innumerables como éste en el que vivimos y crecemos, declaramos que este espacio es infinito, ya que ninguna razón, conveniencia, percepción sensorial ni naturaleza le asigna un límite”
@@ -21,34 +19,34 @@
   </head>
 
  <body> 
-   <img id="tittle" alt="titulo" src="img/titulo.png"></img>
+   <img id="tittle" alt="titulo" src="img/titulo.png">
    <main id="espacio">
      <div>
-       <p id=pcifrar>Cifra tu mensaje.</p> 
-       <div id="barrasci">
+       <p id="pcifrar">Cifra tu mensaje.</p> 
          <form id="cifrador">
-           <input type="text" id="cifrar" spellcheck="false">
+           <input type="text" id="cifrar" spellcheck="false" placeholder="Escribe para cifrar">
          </form>
-         <input type="number" id="numcifrar" min="1" max="26" placeholder="No."></input>
-         <input type="submit" value="Cifrar" id="botoncifrar">  
-        </div>
+         <div id="barrasci">
+           <input type="number" id="numcifrar" min="1" max="26" placeholder="No.">
+           <input type="submit" value="Cifrar" id="botoncifrar">  
+         </div>
        <div id="barrasci2">
-         <input type="text" id="cifrado" placeholder="Cuida la información como si fuera tu vida"></input>
+         <input type="text" id="cifrado" placeholder="Mensaje cifrado.">
          <input type="reset" id="resetci" value="Restablecer">
        </div>
       </div>
     
      <div>
-       <p id=pdescifrar>Descifra tu mensaje.</p> 
-       <div id="barrasdes">
+       <p id="pdescifrar">Descifra tu mensaje.</p> 
          <form id="descifrador">
-         <input type="text" id="descifrar" spellcheck="false">
+         <input type="text" id="descifrar" spellcheck="false" placeholder="Escribe para descifrar.">
          </form>
-         <input type="number" id="numdescifrar" min="1" max="26" placeholder="No."></input>
+          <div id="barrasdes">
+         <input type="number" id="numdescifrar" min="1" max="26" placeholder="No.">
          <input type="button" id="botondescifrar" value="descifrar">
         </div>
        <div id="barrasdes2">
-         <input type="text" id="descifrado"></input>
+         <input type="text" id="descifrado" placeholder="Mensaje descifrado.">
          <input type="button" id="resetdes" value="Restablecer">
        </div>
      </div>  
