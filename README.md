@@ -2,7 +2,7 @@
 
 ## Índice
 
-* [1. Cifrado Cesar]
+* [1. Cifrado Cesar] 
 * [2. Definición del proyecto]
 * [3. Boceto]
 * [4. Proyecto final]
@@ -25,5 +25,6 @@ Finalmente, una vez hayas codificado o decodificado tu mensaje podras compartir 
 
 ## 3. Prototipo
 
-![Prototipo baja calidad](https://imgur.com/a/XJaZAe4)
+![Prototipo baja calidad](https://marammagui014.imgur.com/all/?third_party=1)
+
 
