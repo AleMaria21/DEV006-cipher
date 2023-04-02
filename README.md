@@ -25,6 +25,6 @@ Finalmente, una vez hayas codificado o decodificado tu mensaje podras compartir 
 
 ## 3. Prototipo
 
-![Prototipo-baja-calidad]([img]https://i.imgur.com/U94HFj4.png[/img])
+![Prototipo-baja-calidad](https://imgur.com/U94HFj4)
 
 
