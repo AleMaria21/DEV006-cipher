@@ -25,6 +25,6 @@ Finalmente, una vez hayas codificado o decodificado tu mensaje podras compartir 
 
 ## 3. Prototipo
 
-![Prototipo-baja-calidad](https://github.com/AleMaria21/DEV006-cipher/blob/main/src/img/fondo.png)
+![Prototipo-baja-calidad](https://github.dev/AleMaria21/DEV006-cipher/blob/main/src/img/fondo.png)
 
 
