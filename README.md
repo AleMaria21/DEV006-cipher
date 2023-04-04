@@ -24,6 +24,8 @@ Finalmente, una vez hayas codificado o decodificado tu mensaje podras compartir 
 
 
 ## 3. Prototipo
+![prototipo](src/img/protopobajo.png)
+
 
 
 
